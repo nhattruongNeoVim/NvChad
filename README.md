@@ -17,14 +17,15 @@
 9. Powershell (windows) https://apps.microsoft.com/store/detail/powershell/9MZ1SNWT0N5D?hl=en-id&gl=id
 
 
-# 2.Tải về
+# Tải về
 - Để đưa về máy:
 ```
 git clone https://github.com/nhattruongNeoVim/NvChad $HOME\AppData\Local\nvim
 ```
 
-# 3.Kiểm tra
-- Sau khi tải về NvChad sẽ tự động tải, các bạn chờ tải xong thì thoát ra vào lại và kiểm tra giúp mình đã cài server cho lsp chưa bằng câu lệnh
+# Kiểm tra
+- Sau khi tải về nếu bạn mở nvim lên thì sẽ có lỗi nhưng không cần lo bạn chỉ việc ấn Enter liên tục và chờ một lát để nó load plugin
+- Sau khi các bạn chờ tải xong thì thoát ra vào lại và kiểm tra giúp mình đã cài server cho lsp chưa bằng câu lệnh
 >:Mason
 
 
@@ -44,7 +45,7 @@ shift x để xóa
 - Ví dụ về lsp, lsp gửi require cho server và gợi ý code, góc dưới bên trái màn hình là danh sách các server lsp đang được dùng
 <img src="https://i.imgur.com/ZXRDuoq.png">
 
-# 4.Config
+# Config
 ## 1.Alpha 
 - Chỉnh trong File nvim/lua/custom/plugins/alpha.lua
 ```
@@ -73,7 +74,7 @@ https://patorjk.com/software/taag/
  - Vd để chỉnh snippets cho html: lua/custom/my-snippets/html/snippets/javascripts.json
 <img src="https://i.imgur.com/BsmDjCE.png">
 
-## Plugin
+## 3.Plugin
 - Các bạn muốn cài thêm plugin thì cài tại lua/custom/plugins/init_win.lua
 - Danh sách plugin đang cài sẵn
   - Comment.nvim (not loaded)
